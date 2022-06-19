@@ -6,21 +6,15 @@
 
 最终实现效果：按住右侧部分横滑就是滑动大ViewPager。类似抖音的首页
 
-这个demo看懂你就明白手势处理的流程了
-
-## 安装体验：
-![](https://upload-images.jianshu.io/upload_images/26002059-94273eadb7cf0295.png)
+这个demo看懂你就明白所有的手势处理的流程了
 
 ## 功能：
 - ✅Demo展示了 `内部拦截法` 和 `外部拦截法` 两种方式
-- ✅你在网上看到别人的demo，他们会写多一些无用代码，你以为这句代码发挥作用了，其实没有。本demo是最简洁的，一句多余代码都没
 - ✅海量的代码注释，且注明了为什么要调用这行代码，如果不调用会怎么样
 - ✅看懂这个demo，所有的手势处理你都会了
 
 ## 作者说明：
-- Android系统的Activity过场动画会让shareElementImageView.setAlpha(0)；然后回退动画结束再进行.setAlpha(1)<bar />
-- 这样会导致一个问题：我们下拉返回的时候，由于弹回动画是我们自己做的。但是系统依然会再进行一遍.setAlpha(1)，导致回弹动画结束时候图片会闪一下。参考下面的第1个gif<bar />
-- 为了解决"闪一下"的问题，我用这种方法把他提前设为.setAlpha(1)<bar />
+你在网上看到别人的`内外部拦截法`demo，他们会写多一些无用代码，你以为这句代码发挥作用了，其实没有。本demo是最简洁的，一句多余代码都没
 
 
 ## 效果gif图
@@ -73,6 +67,21 @@
     }
 ```
 
-## Author：DQ
+## 其他开源库：
+我的其他开源库，给个Star鼓励我写更多好库：
+
+[Android 仿大众点评、仿小红书 下拉拖拽关闭Activity](https://github.com/QDong415/QDragClose)
+
+[Android 仿快手直播间手画礼物，手绘礼物](https://github.com/QDong415/QDrawGift)
+
+[Android 直播间聊天消息列表RecyclerView。一秒内收到几百条消息依然不卡顿](https://github.com/QDong415/QLiveMessageHelper)
+
+[Android 仿快手直播界面加载中，顶部的滚动条状LoadingView](https://github.com/QDong415/QStripeView)
+
+[Kotlin MVVM框架，全世界最优化的分页加载接口、最接地气的封装](https://github.com/QDong415/QKotlin)
+
+[Android 基于个推+华为push的一整套完善的android IM聊天系统](https://github.com/QDong415/iTopicChat)
+
+[IOS1:1完美仿微信聊天表情键盘](https://github.com/QDong415/QKeyboardEmotionView)
 
 有问题联系QQ：285275534, 285275534@qq.com
