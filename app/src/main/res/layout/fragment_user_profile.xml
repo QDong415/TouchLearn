@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#F3F3F3"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:background="#F6F6F6"
+        android:elevation="8dp"
+        android:layout_height="48dp">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="个人主页" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:src="@mipmap/user_photo"
+        android:layout_marginTop="200dp"
+        android:layout_height="160dp"></ImageView>
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:text="个人主页Fragment"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
